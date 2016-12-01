@@ -1,0 +1,41 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  background-image: url("img01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/*added a padding and a margin for all images*/
+img {
+  border: 10px groove orange;
+  height: 100px;
+  width: 100px;
+  padding: 50px;
+  margin: 40px;
+  box-sizing: border-box;
+}
+
+.orange1 {
+  border: 10px dashed orange;
+}
+
+.orange2 {
+  border: 10px dotted orange;
+}
+
+.orange3 {
+  border: 10px double orange;
+}
+
+span {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Box model 05</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<!-- div is block element -->
+<div></div>
+<div></div>
+<div></div>
+
+<!-- img is inline element -->
+<img src="img01.jpg" alt="An orange">
+<img src="img01.jpg" alt="An orange" class="orange1">
+<img src="img01.jpg" alt="An orange" class="orange2">
+<img src="img01.jpg" alt="An orange" class="orange3">
+<img src="img01.jpg" alt="An orange"><br>
+
+<h2>border-box</h2>
+<p>
+<span>The width and height properties include the content, the padding and border, but not the margin.</span> This is the box model used by Internet Explorer when the document is in Quirks mode. Note that padding and border will be inside of the box e.g.  .box {width: 350px; border: 10px solid black;} leads to a box rendered in the browser of width: 350px. The content box can't be negative and is floored to 0, making it impossible to use border-box to make the element disappear.
+Here the dimension is calculated as, width = border + padding + width of the content, and height = border + padding + height of the content.</p>
+
+
+
+</body>
+</html>
