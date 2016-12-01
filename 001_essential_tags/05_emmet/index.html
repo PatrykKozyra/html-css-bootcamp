@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Paragraph element</title>
+  <title>Emmet</title>
 </head>
 <body>
 
@@ -18,6 +18,88 @@
 <h4>heading 004</h4>
 <h5>heading 005</h5>
 <h6>heading 006</h6>
+
+<!-- div+p+bq -->
+<div></div>
+<p></p>
+<blockquote></blockquote>
+
+<!-- nav>ul>li*4 -->
+<nav>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+</nav>
+
+<!-- div+div>p>span+b^bq -->
+<div></div>
+<div>
+  <p><span></span><b></b></p>
+  <blockquote></blockquote>
+</div>
+
+<!-- div+div>p>span+em^^bq -->
+<div></div>
+<div>
+  <p><span></span><em></em></p>
+</div>
+<blockquote></blockquote>
+
+<!-- div>(header>ul>li*2>a)+footer>p -->
+<div>
+  <header>
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+  </header>
+  <footer>
+    <p></p>
+  </footer>
+</div>
+
+<!-- (div>dl>(dt+dd)*3)+footer>p*2 -->
+<div>
+  <dl>
+    <dt></dt>
+    <dd></dd>
+    <dt></dt>
+    <dd></dd>
+    <dt></dt>
+    <dd></dd>
+  </dl>
+</div>
+<footer>
+  <p></p>
+  <p></p>
+</footer>
+
+<!-- ol>li.item$$*4 -->
+<ol>
+  <li class="item01"></li>
+  <li class="item02"></li>
+  <li class="item03"></li>
+  <li class="item04"></li>
+</ol>
+
+<!-- a:link -->
+<a href="http://"></a>
+
+<!-- a:mail -->
+<a href="mailto:"></a>
+
+<!-- link:css -->
+<link rel="stylesheet" href="style.css">
+
+<!-- link:print -->
+<link rel="stylesheet" href="print.css" media="print">
+
+<!-- input:p -->
+<input type="password" name="" id="">
+
 
 </body>
 </html>
