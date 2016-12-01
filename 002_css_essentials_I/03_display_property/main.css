@@ -2,10 +2,17 @@ div {
   width: 200px;
   height: 200px;
   border: 1px solid red;
+  border-radius: 100%;
+  background-image: url("img01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
 }
 
 img {
   border: 10px groove orange;
+  height: 200px;
+  width: 200px;
 }
 
 .orange1 {
