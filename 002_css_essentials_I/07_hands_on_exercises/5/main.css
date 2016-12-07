@@ -1,0 +1,13 @@
+div {
+  width: 400px;
+  height: 200px;
+  background-image: url("img01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px dashed red;
+  margin: 20px auto;
+}
+
+#second {
+  box-sizing: border-box;
+}
