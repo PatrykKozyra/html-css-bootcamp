@@ -1,0 +1,24 @@
+[contenteditable] {
+  color: red;
+  border: 1px dashed black;
+}
+
+[href] {
+  color: yellow;
+  border: 2px solid red;
+  text-decoration: none;
+}
+
+[src] {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-left: 1px solid green;
+  border-right: 1px solid green;
+}
+
+[target="_blank"] {
+  text-decoration: none;
+  color: pink;
+  border-top: 2px solid black;
+}

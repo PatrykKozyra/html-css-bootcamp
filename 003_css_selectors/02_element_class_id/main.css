@@ -1,0 +1,40 @@
+
+/*this ruleset styles everything*/
+* { margin: 50px; }
+
+/*it styles "elements" like: header, section, article, etc.*/
+header {
+    width: 100%;
+    height: 100px;
+    background-color: red;
+}
+
+section {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
+
+article {
+    width: 50%;
+    height: 100px;
+    background-color: yellow;
+}
+
+aside, footer {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+
+/*it styles elements with class redbold*/
+.redbold {
+  color: red;
+  font-weight: bold;
+}
+
+/*it styles element with id greenitalic*/
+#greenitalic {
+  color: green;
+  font-style: italic;
+}
