@@ -1,0 +1,21 @@
+/*it will select all p in div*/
+div p {
+  color: red;
+}
+
+/*it will select only p which are in article, not in section*/
+article > p {
+  color: green;
+}
+
+/*all p that are siblings to article, so they are not inside this tag*/
+article ~ p {
+  color: blue;
+  font-weight: bold;
+}
+
+/*only the p that are close to div, an immediate sibling*/
+div + p {
+  color: violet;
+  font-size: 30px;
+}

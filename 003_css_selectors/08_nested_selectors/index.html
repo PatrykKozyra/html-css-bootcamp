@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nested selectors</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <!-- div>p*2+section>p^^p -->
+  <div>
+    <p>first</p>
+    <p>second</p>
+    <section>
+      <p>third</p>
+    </section>
+  </div>
+  <p>forth</p> <!--div + p -->
+  <p>fifth</p>
+  <p>sixth</p><br><br><hr>
+
+  <article>
+    <p>first</p>
+    <p>second</p>
+    <section>
+      <p>third</p>
+    </section>
+  </article>
+  <p>forth</p>
+  <p>fifth</p>
+  <p>sixth</p>
+</body>
+</html>
