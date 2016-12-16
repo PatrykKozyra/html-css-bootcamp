@@ -1,0 +1,15 @@
+/*it will select: no. 31*/
+li:nth-last-child(10) {
+  color: red;
+  font-size: 30px;
+}
+
+
+/*it will select:2, 5, 8, 11, 14... */
+li:nth-child(3n+2) {
+  color: red;
+}
+
+p:only-child {
+  color: pink;
+}

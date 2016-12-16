@@ -21,6 +21,10 @@ a:active {
   color: yellow;
 }
 
+input:focus {
+  border: 2px solid green;
+}
+
 div {
   height: 100px;
   width: 100px;
