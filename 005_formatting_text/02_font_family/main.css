@@ -1,0 +1,12 @@
+h1 {
+  font-family: serif;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+p:last-of-type {
+  font-family: Gill Sans Extrabold, Helvetica, sans-serif;
+  font-size: 26px;
+}
