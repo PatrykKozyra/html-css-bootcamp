@@ -1,0 +1,10 @@
+p::first-letter {
+  font-size: 36px;
+  color: red;
+  font-weight: bold;
+}
+
+p::first-line {
+  color: red;
+  font-style: italic;
+}
