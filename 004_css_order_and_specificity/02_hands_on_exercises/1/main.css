@@ -1,0 +1,13 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+}
+
+.looser {
+  background-color: red;
+}
+
+#winner {
+  background-color: green;
+}
