@@ -1,0 +1,9 @@
+p {
+  text-indent: 2rem;
+  max-width: 600px;
+}
+
+p::first-letter {
+  font-size: 2rem;
+  color: red;
+}
