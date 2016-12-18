@@ -1,0 +1,9 @@
+#first {
+  font-size: 2rem;
+  text-decoration: line-through overline underline;
+  color: lawngreen;
+}
+
+a {
+  text-decoration: none;
+}
