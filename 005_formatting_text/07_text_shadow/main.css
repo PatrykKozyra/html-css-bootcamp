@@ -1,0 +1,6 @@
+h1 {
+  font-size: 20rem;
+  /*x; y; blur radius; color*/
+  text-shadow: 5px 5px 10px red;
+  text-align: center;
+}
