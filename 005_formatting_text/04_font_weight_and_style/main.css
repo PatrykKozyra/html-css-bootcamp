@@ -20,7 +20,3 @@ p:last-child {
 article p:nth-child(2) {
   text-transform: uppercase;
 }
-
-li p {
-  font-variant-numeric: ordinal;
-}

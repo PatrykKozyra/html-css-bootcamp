@@ -1,0 +1,19 @@
+h1 {
+  font-size: 2vw;
+}
+
+p:first-of-type {
+  line-height: 2;
+}
+
+p:last-of-type {
+  line-height: 3;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;  /*somethimes we use it to center the text verticaly*/
+  border: 2px solid black;
+}
