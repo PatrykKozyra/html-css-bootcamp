@@ -1,0 +1,28 @@
+html {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+
+a {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 2px solid blue;
+  border-radius: 50px;
+}
+
+/*display: inline-block must be both in "a" and "li"!*/
+
+li:hover {
+  background-color: yellow;
+}
